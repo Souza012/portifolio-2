@@ -398,58 +398,10 @@ nav a{
 
 
 
-@media only screen and (min-width:769px){
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
 
-    .texto-grande{
-        font-size: 25px;
-        margin-left: 120px;
-    }
-
-    .titulo2 {
-        border: none;
-        font-family: 'Sour Gummy', sans-serif;
-        font-size: 70px;
-        color: #030da1;
-        
-    }
-
-
-    .texto-sobre-mim {
-        max-width: 1200px;
-        text-indent: 20px;
-        font-family: 'Poppins', sans-serif;
-        font-size: 40px;
-        line-height: 1.6; 
-        color: black; 
-    }
-
-    .minha-imagem {
-        flex-wrap: wrap;
-        width: 400px;
-        height: auto;
-        border-radius: 50%; 
-        box-shadow: 5px 3px 3px 2px black; 
-        margin-left: 30px;
-    }
-
-    .home1 {
-        background-color: #030da1;
-        width: 300px;
-        border-radius: 10%;
-        position:fixed;
-        bottom: -10px;
-        left: 0; 
-        padding: 5px;
-        
-    }
-}
-
-
-
-  /* Responsividade para telas pequenas */
-  @media (max-width: 768px) {
-
-    nav ul{
+    nav ul {
         position: absolute;
         top: 26px;
         left: 0;
@@ -459,7 +411,7 @@ nav a{
         transition: max-height 0.5s;
     }
 
-    nav ul li{
+    nav ul li {
         display: block;
         margin-top: 10px;
         margin-right: 50px;
@@ -471,12 +423,11 @@ nav a{
         color: rgb(255, 255, 255);
     }
 
-    .branco:hover{
+    .branco:hover {
         color: #047b99;
     }
 
-    
-    .menu-cel{
+    .menu-cel {
         margin-top: -20px;
         display: block;
         cursor: pointer;
@@ -486,6 +437,7 @@ nav a{
         margin-bottom: -30px;
         font-size: 39px; 
     }
+
     .titulo2 {
         border: none;
         font-family: 'Sour Gummy', sans-serif;
@@ -493,16 +445,15 @@ nav a{
         color: #030da1;
     }
 
-
     .btn-download {
         position: fixed;
         bottom: 10px;
         right: 10px;
     }
     
-      .btn-download i {
+    .btn-download i {
         font-size: 16px;
-      }
+    }
 
     .sobre-mim {
         flex-direction: column;
@@ -520,25 +471,69 @@ nav a{
         text-align: center; 
     }
 
-    .titulo3{
+    .titulo3 {
         border: none;
-    font-family: 'Sour Gummy', sans-serif;
-    font-size: 22px;
-    margin: 30px;
-    margin-bottom: -70px;
-    color: #030da1;
-    box-shadow: 5px 3px 3px 2px #a6bec4;
+        font-family: 'Sour Gummy', sans-serif;
+        font-size: 22px;
+        margin: 30px;
+        margin-bottom: -70px;
+        color: #030da1;
+        box-shadow: 5px 3px 3px 2px #a6bec4;
     }
 
-    .icon-foguete{
+    .icon-foguete {
         margin-top: 70px;
         width: 150px;
     }
 
     /*Contatos*/
     .card {
-        width: 300px; 
-        padding: 20px; 
+        width: 300px;
+        padding: 20px;
         font-size: 20px;
+    }
+}
+
+/* Responsividade para telas maiores */
+@media only screen and (min-width: 769px) {
+
+    .texto-grande {
+        font-size: 1.5rem;
+        margin-left: 8%;
+    }
+
+    .titulo2 {
+        border: none;
+        font-family: 'Sour Gummy', sans-serif;
+        font-size: 4rem;
+        color: #030da1;
+    }
+
+    .texto-sobre-mim {
+        max-width: 90%;
+        text-indent: 2em;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5rem;
+        line-height: 1.6;
+        color: black;
+    }
+
+    .minha-imagem {
+        flex-wrap: wrap;
+        width: 25vw;
+        height: auto;
+        border-radius: 50%; 
+        box-shadow: 0.3em 0.2em 0.2em 0.1em black;
+        margin-left: 3%;
+    }
+
+    .home1 {
+        background-color: #030da1;
+        width: 20vw;
+        border-radius: 10%;
+        position: fixed;
+        bottom: 2vh;
+        left: 0; 
+        padding: 1em;
     }
 }
