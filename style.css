@@ -407,6 +407,7 @@ nav a{
         left: 0;
         background: rgb(173, 173, 169);
         width: 100%;
+        height: 60%;
         overflow: hidden;
         transition: max-height 0.5s;
     }
@@ -428,7 +429,7 @@ nav a{
     }
 
     .menu-cel {
-        margin-top: -20px;
+        margin-top: -36px;
         display: block;
         cursor: pointer;
     }
