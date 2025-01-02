@@ -413,10 +413,11 @@ nav a{
     }
 
     nav ul li {
+        text-align: left;
         display: block;
         margin-top: 10px;
         margin-right: 50px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         cursor: pointer;
     }
 
@@ -494,6 +495,8 @@ nav a{
         font-size: 20px;
     }
 }
+
+
 
 /* Responsividade para telas maiores */
 @media only screen and (min-width: 769px) {
