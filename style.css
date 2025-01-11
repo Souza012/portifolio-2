@@ -85,7 +85,7 @@ nav a{
     content: "";
     position: absolute;
     height: 100%;
-    border-left: 5px solid rgb(0, 30, 201);
+    border-left: 2px solid rgb(0, 30, 201);
     right: -15px;
     animation: cursor .8s infinite, digita 20s steps(15) infinite;
     width: calc(100% + 18px);
