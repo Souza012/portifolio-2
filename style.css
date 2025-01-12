@@ -43,8 +43,8 @@ nav a{
     font-family: "Poppins", serif;
     text-decoration: none;
     color: black;
-    font-weight: 800;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .branco:hover{
@@ -55,7 +55,7 @@ nav a{
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    height: 100vh; 
+    height: 70vh; 
     flex-direction: column; 
 }
 
@@ -63,7 +63,7 @@ nav a{
     font-size: 100px;
     margin: 0;
     padding: 0;
-    margin-bottom: -40px;
+    margin-bottom: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .txt-animado{
@@ -460,21 +460,21 @@ nav a{
     }
 
     .menu-cel {
-        margin-top: -10px;
+        margin-top: -30px;
         display: block;
         cursor: pointer;
     }
 
     .nome {
-        font-size: 28px;
+        font-size: 26px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
     }
 
     .txt-animado {
-        margin-bottom: -30px;
+        margin-bottom: -50px;
         font-size: 20px;
-        padding: 10px;
+        padding: 0px;
     }
 
     .txt-animado span::after {
@@ -486,6 +486,10 @@ nav a{
         animation: cursor .8s infinite, digita 15s steps(12) infinite;
         width: calc(100% + 12px);
         background-color: white;
+    }
+
+    .container-titulos{
+        padding: 0;
     }
 
     .titulo2 {
@@ -558,10 +562,7 @@ nav a{
         border-radius: 6px;
     }
 
-    .icon-foguete {
-        margin-top: 50px;
-        width: 120px;
-    }
+
 
     /* Contatos */
     .card {
@@ -601,7 +602,7 @@ nav a{
         display: block;
         margin-top: 10px;
         margin-right: 50px;
-        margin-bottom: 20px;
+        margin-bottom: 0;
         cursor: pointer;
     }
 
@@ -620,14 +621,14 @@ nav a{
     }
 
     .nome{
-        font-size: 35px;
+        font-size: 32px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .txt-animado {
-        margin-bottom: -50px;
+        margin-bottom: -40px;
         font-size: 26px; 
-        padding: 15PX;
+        padding: -10px;
     }
 
     .txt-animado span::after{
@@ -705,10 +706,6 @@ nav a{
         border-radius: 8px;
     }
 
-    .icon-foguete {
-        margin-top: 70px;
-        width: 150px;
-    }
 
     /*Contatos*/
     .card {
@@ -765,11 +762,6 @@ nav a{
         padding: 15px; 
     }
 
-    .icon-foguete{
-        width: 200px;
-        padding: 80px;
-        
-    }
 
     .home1 {
         background-color: #030da1;
