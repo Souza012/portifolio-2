@@ -185,6 +185,8 @@ nav a{
     color: #ffffff; 
     padding: 10px 20px; 
     border-radius: 8px; 
+    justify-content: center;
+    align-items: center;
     text-decoration: none; 
     font-size: 18px; 
     font-weight: bold; 
@@ -192,7 +194,6 @@ nav a{
   }
   
   .btn-download:hover {
-    background-color: #0374ee; 
     transform: scale(1.05);
   }
   
@@ -366,8 +367,7 @@ nav a{
 }
   
   .btn-projeto:hover {
-    background-color: #0374ee;
-    transform: scale(1.05);
+    transform: scale(1.15);
   }
 
 .btn-projeto a {
@@ -564,6 +564,12 @@ nav a{
     }
 
 
+    .gitgit{
+        width: 30px;
+        height: 30px;
+        margin-top: -5px;
+    }
+
 
     /* Contatos */
     .card {
@@ -612,7 +618,7 @@ nav a{
     }
 
     .branco:hover {
-        color: #047b99;
+        color: #ffffff;
     }
 
     .menu-cel {
@@ -700,13 +706,25 @@ nav a{
     }
 
     .btn-projeto{
-        display: block;
+        display:inline-flex;
         margin: 0 auto; 
         padding: 10px 20px;
         color: white;
         border: none;
         border-radius: 8px;
+        align-items: center;
+        justify-content: center;
     }
+
+
+    .gitgit{
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
 
 
     /*Contatos*/
