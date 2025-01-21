@@ -375,6 +375,11 @@ nav a{
     color: white;
 }
 
+.btn-download:hover {
+    transform: scale(1.05);
+  }
+
+
 
 /*Contatos*/
 
